@@ -8,4 +8,10 @@ I developed a simple web application as part of a personal project to build on m
 An ARIMA model of (2,1,1) was chosen based on the auto-ARIMA library. More work is needed to further finetune the LSTM neural netowrk model. 
 This application is a work in progress, I hope to add a year filter to show the performance of these models in different years. 
 
+Note: the ARIMA model is retrained when the application is running, but the LSTM model and the results have been loaded in as it takes a while for the model to run 
+
+To run the web application, download the folder and run the following lines in the terminal:
+- pip install -r requirements.txt
+- python app.py 
+
 
