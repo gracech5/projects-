@@ -31,3 +31,9 @@ This repository contains a portfolio of projects that I have done as part of a M
 - Developed a web application using Heroku, Flask and Python 
 - Launched a database on the web application using SQLAlchemy
 - Developed filters using SQL to enable users to conduct analytical queries on the web application 
+
+### [Project 5 - Time Series Forecasting Machine learning Models Web App](https://github.com/gracech5/projects-/tree/main/timeseries_models)
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/119866759/217031557-ae9af2fe-98b4-457d-b936-af2cc2ae8b86.png">
+
+- Trained various machine learning models such as ARIMA and LSTM to forecast Singapore's merchandise trade data 
+- Developed a web application using Flask and Python to enable users to visualise the results quickly 
