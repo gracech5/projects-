@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arima Forecast</title>
+    <!--Bootstrap css--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h3>ARIMA Forecast</h3>
+  <p> <b>Actual growth values</b> below are calculated based on the Total Trade cumulative year-on-year growth rates </p>
+  <p> For example: Q2 actual growth rates are calculated using Jan to Jun values over the corresponding Jan to Jun period in the previous year</p>
+
+  <p> <b>Forecasted growth values</b> below are calculated based on full year forecasted values. </p>
+  <p> For example: Q2 forecasted growth rates are calculated based on the ARIMA model that was trained using Q1 data and before. The predictions are made for the entire year ahead.
+  Forecasted growth rate for Q2 would be: actual Q1 + predicted Q2,Q3 & Q4 values over the values in the prev year. 
+  </p>
+
+  <div style="text-align:center;">
+    <img src="static/arima.png" height="600"/>
+  </div>
+
+  <style>
+    table {
+      width: 50%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    td, th {
+      border: 1px solid darkgrey;
+      padding: 8px;
+    }
+    th {
+      background-color: lightgray;
+    }
+  </style>
+
+  <table>
+        <tr>
+          <th>Quarter</th>
+          <th>Forecast</th>
+          <th>Actual growth</th>
+        </tr>
+        <tr>
+          <td>Q1:</td>
+          <td>{{f1}}%</td>
+          <td>{{q1}}%</td>
+        </tr>
+        <tr>
+          <td>Q2:</td>
+          <td>{{f2}}%</td>
+          <td>{{q2}}%</td>
+        </tr>
+        <tr>
+          <td>Q3:</td>
+          <td>{{f3}}%</td>
+          <td>{{q3}}%</td>
+        </tr>
+        <tr>
+          <td>Q4:</td>
+          <td>{{f4}}%</td>
+          <td>{{q4}}%</td>
+        </tr>
+      </table>
+
+</body>
+</html>
