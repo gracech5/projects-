@@ -15,7 +15,7 @@ This application is a work in progress, I hope to add a year filter to show the 
 Note: the ARIMA model is retrained when the application is running, but the LSTM model and the results have been loaded in as it takes a while for the model to run 
 
 
-To run the web application, download the folder and run the following lines in the terminal:
+To run the web application, you may choose to download the folder, start a virtual env and run the following lines in the terminal:
 - pip install -r requirements.txt
 - python app.py 
 
