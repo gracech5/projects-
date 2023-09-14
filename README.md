@@ -38,7 +38,7 @@ This repository contains a portfolio of projects that I have done as part of a M
 - Trained various machine learning models such as ARIMA and LSTM to forecast Singapore's merchandise trade data 
 - Developed a web application using Flask and Python to enable users to visualise the results quickly
 
-### [Project 6 - GPT Chart Generation App] (https://github.com/gracech5/projects-/tree/main/gpt_chart_generation)
+### [Project 6 - GPT Chart Generation App](https://github.com/gracech5/projects-/tree/main/gpt_chart_generation)
 ![image](https://github.com/gracech5/projects-/assets/119866759/9ccbbd13-8c9c-4ab8-9025-27ed864fbc07)
 
 - developed an application using GPT 3.5 to automatically plot charts based on a user's search query
