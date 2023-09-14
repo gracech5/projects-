@@ -46,4 +46,11 @@ To run the frontend, use the following command:
 ```bash
 npm run serve
 ```
+## Results & Sample Commands
+
+You can 
+
+You can try the following command: `plot a barplot of copa revenue in region l2` 
+Region L2 is at country level and the following plot is drawn: 
+![image](https://github.com/gracech5/projects-/assets/119866759/d64fe26d-8695-4151-9619-97030541086a)
 
