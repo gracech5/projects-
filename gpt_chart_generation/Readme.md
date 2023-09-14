@@ -11,5 +11,10 @@ across different regions. Region L1 displays the data at continent level, region
 
 ## Deployment Steps
 
-To deploy this application, you need to have an Open AI API Key. Create a `.env` file and set following parameters:
+To deploy this application, you need to have an Open AI API Key. Create a `.env` file and set following parameters in the .env file:
+```bash
+OPENAI_API_KEY = 'YOUR-API-KEY-HERE'
 
+DATA_FILEPATH = 'data/fake_data.csv'
+
+```
