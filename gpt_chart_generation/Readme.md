@@ -36,3 +36,14 @@ Finally, run the backend on fastAPI using the following command:
 ```bash
 python main2.py 
 ```
+
+To set up the frontend, go to the frontend folder and run the following commands to install the node modules
+```bash
+npm install
+```
+
+To run the frontend, use the following command:
+```bash
+npm run serve
+```
+
