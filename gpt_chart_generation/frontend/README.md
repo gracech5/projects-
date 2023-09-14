@@ -1,4 +1,4 @@
-# rise
+# FrontEnd deployment
 
 ## Project setup
 ```
