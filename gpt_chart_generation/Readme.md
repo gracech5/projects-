@@ -13,7 +13,7 @@ This application uses GPT 3.5, you can modify the model used in the backend in t
 
 ## Instructions for setting up application
 
-To deploy this application, you need to have an Open AI API Key. Create a `.env` file in the `/backend` folder and set the following parameters in the .env file:
+To run this application, you need to have an Open AI API Key. Create a `.env` file in the `/backend` folder and set the following parameters in the .env file:
 ```bash
 OPENAI_API_KEY = 'YOUR-API-KEY-HERE'
 
