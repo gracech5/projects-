@@ -41,12 +41,12 @@ This repository contains a portfolio of projects that I have done as part of a M
 ### [Project 6 - GPT Chart Generation App](https://github.com/gracech5/projects-/tree/main/gpt_chart_generation)
 ![image](https://github.com/gracech5/projects-/assets/119866759/9ccbbd13-8c9c-4ab8-9025-27ed864fbc07)
 
-- developed an application using GPT 3.5 to automatically plot charts based on a user's search query
+- Developed an application using GPT 3.5 to automatically plot charts based on a user's search query
 - Plots treeplots, barplots using backend data.
 - Developed using OpenAI API, FastAPI and Vue
 
 ### [Project 7 - FAQ GPT Chatbot](https://github.com/gracech5/projects-/tree/main/faq_chatbot)
 <img width="412" alt="image" src="https://github.com/gracech5/projects-/assets/119866759/53ef94ce-50fe-4665-b554-cd15b89fcde8"> 
 
-- developed a simple chatbot on GPT 3.5 that is customised to answer the user's query about a set of products in the backend
-- developed a simple chat interface using Streamlit
+- Developed a simple chatbot on GPT 3.5 that is customised to answer the user's query about a set of products in the backend
+- Developed a simple chat interface using Streamlit
