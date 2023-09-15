@@ -11,7 +11,7 @@ across different regions. Region L1 displays the data at continent level, region
 
 This application uses GPT 3.5, you can modify the model used in the backend in the  `backend_schema.py` file. 
 
-## Deployment Steps
+## Instructions for setting up application
 
 To deploy this application, you need to have an Open AI API Key. Create a `.env` file in the `/backend` folder and set the following parameters in the .env file:
 ```bash
