@@ -45,8 +45,8 @@ This repository contains a portfolio of projects that I have done as part of a M
 - Plots treeplots, barplots using backend data.
 - Developed using OpenAI API, FastAPI and Vue
 
-### [Project 6 - GPT Chart Generation App](https://github.com/gracech5/projects-/tree/main/faq_chatbot)
+### [Project 7 - FAQ GPT Chatbot](https://github.com/gracech5/projects-/tree/main/faq_chatbot)
 <img width="412" alt="image" src="https://github.com/gracech5/projects-/assets/119866759/53ef94ce-50fe-4665-b554-cd15b89fcde8"> 
 
-- developed a simple chatbot on GPT 3.5 that is customised to answer the user's query
-- 
+- developed a simple chatbot on GPT 3.5 that is customised to answer the user's query about a set of products in the backend
+- developed a simple chat interface using Streamlit
